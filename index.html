@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__container">
+      <nav class="header__container header__container--active">
         <ul class="header__links">
           <li>
             <a href="#" class="header__link"><i class="fas fa-bars"></i></a>
@@ -29,14 +29,59 @@
       <div class="about__intro">
         <div class="about__intro--container">
           <div class="about__box"></div>
+          <div class="about__box">
+            <video autoplay muted loop>
+              <source src="img/walkingVideo.mp4" type="video/mp4" />
+            </video>
+          </div>
           <div class="about__box"></div>
           <div class="about__box"></div>
-          <div class="about__box"></div>
-          <div class="about__box">News the lasts.</div>
-          <div class="about__box"><i class="fas fa-arrow-down"></i></div>
+          <div class="about__box">News that lasts.</div>
+          <div class="about__box">&darr;</div>
+        </div>
+        <div class="about__info">
+          <div class="about__text">
+            <h4 class="about__text--title">About</h4>
+            <p class="about__text--text">
+              Schwartz Media publishes intelligent news and current affairs that
+              breaks the 24-hour news cycle. We offer a nuanced examination of
+              Australia and the world, focused on fresh <span>insight</span> and
+              literary expression. Our audience reads to know, not just to
+              agree. We invest in long-form journalism where the issues demand
+              it, providing writing of a quality that makes difficult topics
+              clear. Schwartz Media publishes Australia’s most respected writers
+              across The <span>Saturday</span> Paper, The
+              <span>Monthly</span> magazine and the daily podcast
+              <span>7am</span>, alongside our sister publications, Quarterly
+              Essay and Australian Foreign Affairs.
+            </p>
+          </div>
+          <div class="about__more">
+            <div class="about__more--icon">
+              <i class="fas fa-arrow-circle-right"></i>
+            </div>
+            <span class="about__more--text">View our companies</span>
+          </div>
         </div>
       </div>
     </section>
+
+    <main class="content">
+      <aritcle class="content__article">
+        <div class="content__column">
+          <div class="content__column--table">
+            <h4 class="content__column--category">Journalism</h4>
+            <p class="content__column--text">
+              Our journalists create in-depth, independent, original public
+              interest reporting, focusing on storytelling and insight.
+            </p>
+            <button class="content__column--btn"><a>Learn more</a></button>
+          </div>
+        </div>
+        <div class="content__column"><div class="content__img"></div></div>
+      </aritcle>
+    </main>
+
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
